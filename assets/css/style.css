@@ -24,15 +24,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background-image: url("../images/hero-bg.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-=======
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -42,19 +33,13 @@ header {
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
->>>>>>> feature/aesthetics
 }
 
 header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-<<<<<<< HEAD
-  color: #fce138;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-=======
   color: var(--primary-color);
->>>>>>> feature/aesthetics
 }
 
 header a {
@@ -137,10 +122,6 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  align-items: flex-start;
-=======
->>>>>>> feature/aesthetics
   background-attachment: fixed;
   background-position: 80%;
 }
@@ -157,37 +138,19 @@ section {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-<<<<<<< HEAD
-  color: #fce138;
-=======
   color: var(--primary-color);
->>>>>>> feature/aesthetics
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
-<<<<<<< HEAD
-  border: 3px solid #024e76;
-  background-color: rgba(255, 225, 56, 0.8);
-=======
   border: 3px solid var(--secondary-color);
   border-radius: 15px;
   background-color: rgba(252, 225, 56, 0.8);
->>>>>>> feature/aesthetics
   padding: 20px;
   color: var(--secondary-color);
   width: 40%;
   margin: 3.5%;
-<<<<<<< HEAD
-  border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.hero-form button:hover {
-  background-color: #39a6b2;  
-=======
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
->>>>>>> feature/aesthetics
 }
 
 .hero-form h3 {
@@ -207,10 +170,6 @@ section {
   color: var(--secondary-color);
   width: 100%;
   margin-bottom: 15px; 
-<<<<<<< HEAD
-  border-radius: 10px;
-=======
->>>>>>> feature/aesthetics
   background-color: rgba(255,255,255, 0.75);
 }
 
@@ -230,10 +189,6 @@ section {
   border-radius: 10px;
   padding: 10px 20px;
   font-size: 16px;
-<<<<<<< HEAD
-  border-radius: 10px;
-} 
-=======
 }
 
 .hero-form button:hover {
@@ -301,7 +256,6 @@ section {
 }
 
 
->>>>>>> feature/aesthetics
 /* HERO STYLES END */
 
 
@@ -353,13 +307,8 @@ section {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-.step:last-child {
-  border-bottom: none;
-=======
 .step:not(:last-child) {
   border-bottom: 1px solid var(--tertiary-color);
->>>>>>> feature/aesthetics
 }
 
 .step h3 {
@@ -490,10 +439,6 @@ section {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
-<<<<<<< HEAD
-  border-radius: 10px;
-=======
->>>>>>> feature/aesthetics
   background-color: rgba(255,255,255, 0.75);
 }
 
@@ -547,11 +492,7 @@ section {
   header {
     padding-bottom: 0;
     justify-content: center;
-<<<<<<< HEAD
-    position: relative;
-=======
     position: relative
->>>>>>> feature/aesthetics
   }
 
   header h1 {
